@@ -204,7 +204,7 @@ let capture = captureOrder('REPLACE-WITH-APPROVED-ORDER-ID');
 To run integration tests using your client id and secret, clone this repository and run the following command:
 ```sh
 $ npm install
-$ PAYPAL_CLIENT_ID=YOUR_SANDBOX_CLIENT_ID PAYPAL_CLIENT_SECRET=YOUR_SANDBOX_CLIENT_SECRET npm test
+$ npm test PAYPAL_CLIENT_ID=YOUR_SANDBOX_CLIENT_ID PAYPAL_CLIENT_SECRET=YOUR_SANDBOX_CLIENT_SECRET
 ```
 
 ## Samples
